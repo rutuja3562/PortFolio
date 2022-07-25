@@ -1,12 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
-import project2 from "../assets/bigbasket.png";
+import project2 from "../assets/Nordstrom.png";
 import { projectCard } from "../constants";
 
-const Cardone = () => {
+const Card2 = () => {
   return (
     <motion.div
-      style={{ width: "48%" }}
+      style={{ width: "48%", marginRight: "4%" }}
       initial={"hidden"}
       whileInView={"visible"}
       variants={{
@@ -26,22 +26,20 @@ const Cardone = () => {
         </a>
         <div class="p-5">
           <a href="">
-            <h5 class="mb-2 mt-3 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Big Basket
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              Nordstrom Rack
             </h5>
           </a>
           <p
             style={{ textAlign: "justified" }}
-            class="mb-3 mt-10 font-normal text-gray-700 dark:text-gray-400 "
-            
+            class="mb-3 font-normal text-gray-700 dark:text-gray-400 "
           >
-            The best online grocery store in India. Big Basket is an online
-            supermarket for all your daily needs. I was cloned Big Basket
-            website using react-Redux.
+            In This Application I used HTML,CSS,JavaScript to build this
+            application. I have cloned Nordstrome Rack website and given some of
+            the functionality as it is present in the original website.
           </p>
           <h5 class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            <span class="font-bold"> Tech Stack : </span>React | Redux | Node JS
-            | MongoDB | Chakra UI
+            <span class="font-bold"> Tech Stack : </span>HTML | CSS | JavaScript
           </h5>
           <div
             style={{
@@ -53,7 +51,7 @@ const Cardone = () => {
           >
             <a
               target={"_blank"}
-              href="https://github.com/rutuja3562/BigBasket-Clone"
+              href="https://github.com/rutuja3562/Nordstrom-Rack-Clone"
               className="mr-5 cursor-pointer mt-8 hover:scale-125"
             >
               <img
@@ -62,7 +60,7 @@ const Cardone = () => {
               />
             </a>
             <a
-              href="https://big-basket-clone-rutu.vercel.app"
+              href="https://rutuja-patil.vercel.app/"
               target="_blank"
               className="mr-5 cursor-pointer mt-8 hover:scale-125"
             >
@@ -79,7 +77,7 @@ const Cardone = () => {
   );
 };
 
-export default Cardone;
+export default Card2;
 // line 36
 // <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
 //               In This Application we have used HTML,CSS,JavaScript,EJS to build

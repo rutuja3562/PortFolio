@@ -1,6 +1,9 @@
 import React, { useContext } from "react";
 import Card from "../components/Card";
 import Cardone from "../components/Card1";
+import Card2 from "../components/Cart2";
+import Cardthree from "../components/Cardthree";
+
 import { ThemeContext } from "../themeProvider";
 import "./card.css"
 const Projects = () => {
@@ -19,10 +22,12 @@ const Projects = () => {
 
         <div
           className="mt-8 flex items-stretch flex-wrap items-center projectcard"
-          style={{ width: "70%", margin: "auto" }}
+          style={{ width: "80%", margin: "auto" ,justifyContent:"space-between"}}
         >
           <Card />
           <Cardone />
+          <Card2/>
+          <Cardthree/>
         </div>
       </div>
     </div>

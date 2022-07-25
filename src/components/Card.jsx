@@ -21,7 +21,7 @@ const Card = () => {
         <div class="p-5">
           <a href="helo">
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              ZARA HOME
+              Zara Home
             </h5>
           </a>
           <p
@@ -33,7 +33,7 @@ const Card = () => {
             this project.
           </p>
 
-          <h5 class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <h5 class="mb-3 mt-10 font-normal text-gray-700 dark:text-gray-400">
             <span class="font-bold"> Tech Stack : </span>HTML | CSS | JavaScript
             | MongoDb | Express Js
           </h5>
@@ -41,7 +41,7 @@ const Card = () => {
           <div
             style={{
               display: "flex",
-              margin: "0px 10px 10px 0",
+              margin: "35px 10px 10px 0",
               float: "left",
               border: "5px solid transperent",
             }}
